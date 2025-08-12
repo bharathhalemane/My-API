@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-api
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    branch: main
